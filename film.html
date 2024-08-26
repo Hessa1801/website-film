@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Absen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Absen film</h1>
+    </header>
+    
+    <main>
+        <form id="absenForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="date">Tanggal:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Absen</button>
+        </form>
+        
+        <div id="absenList">
+            <h2>Daftar Absensi</h2>
+            <ul id="absenItems"></ul>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
